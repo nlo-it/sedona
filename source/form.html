@@ -73,26 +73,26 @@
           <h2 class="visually-hidden">
             Напишите нам
           </h2>
-          <form class="feedback__form" action="https://echo.htmlacademy.ru" method="post">
+          <form class="feedback__form" action="https://echo.htmlacademy.ru" method="post" name="feedback-form">
             <fieldset class="feedback__username username">
               <legend class="username__title">
                 Представьтесь:
               </legend>
               <ul class="username__list">
                 <li class="username__item">
-                  <p class="username__field">
+                  <p class="username__field field">
                     <label class="field__label" for="first-name">Имя*:</label>
                     <input class="field__input" type="text" name="first-name-input" id="first-name" placeholder="Пётр" required>
                   </p>
                 </li>
                 <li class="username__item">
-                  <p class="username__field">
+                  <p class="username__field field">
                     <label class="field__label" for="last-name">Фамилия*:</label>
                     <input class="field__input" type="text" name="last-name-input" id="last-name" placeholder="Иванов" required>
                   </p>
                 </li>
                 <li class="username__item">
-                  <p class="username__field">
+                  <p class="username__field field">
                     <label class="field__label" for="patronymic">Отчество*:</label>
                     <input class="field__input" type="text" name="patronymic" id="patronymic" placeholder="Александрович" required>
                   </p>
@@ -105,15 +105,15 @@
               </legend>
               <ul class="contact-info__list">
                 <li class="contact-info__item">
-                  <p class="contact-info__field">
-                    <label class="contact-info__label contact-info__label--phone" for="phone-input">Контактный телефон*:</label>
-                    <input class="contact-info__input" type="text" name="phone-input" id="phone-input" placeholder="Введите телефон" required>
+                  <p class="contact-info__field field">
+                    <label class="field__label field__label--phone" for="phone-input">Контактный телефон*:</label>
+                    <input class="field__input" type="text" name="phone-input" id="phone-input" placeholder="Введите телефон" required>
                   </p>
                 </li>
                 <li class="contact-info__item">
-                  <p class="contact-info__field">
-                    <label class="contact-info__label contact-info__label--mail" for="mail-input">Электронная почта*:</label>
-                    <input class="contact-info__input" type="text" name="mail-input" id="mail-input" placeholder="Введите e-mail" required>
+                  <p class="contact-info__field field">
+                    <label class="field__label field__label--mail" for="mail-input">Электронная почта*:</label>
+                    <input class="field__input" type="text" name="mail-input" id="mail-input" placeholder="Введите e-mail" required>
                   </p>
                 </li>
               </ul>
@@ -124,25 +124,25 @@
               </legend>
               <ul class="impression__list">
                 <li class="impression__item">
-                  <p class="impression__field">
-                    <input class="visually-hidden impression__input impression__input--first" type="radio" name="impression-radio" id="impression-radio-first" required checked>
-                    <label class="impression__label impression__label--first" for="impression-radio-first">
+                  <p class="impression__field field">
+                    <input class="visually-hidden field__input field__input--first" type="radio" name="impression-radio" id="impression-radio-first" required checked>
+                    <label class="field__label field__label--first" for="impression-radio-first">
                       <b>Скорее положительное</b>
                     </label>
                   </p>
                 </li>
                 <li class="impression__item">
-                  <p class="impression__field">
-                    <input class="visually-hidden impression__input impression__input--second" type="radio" name="impression-radio" id="impression-radio-second" required>
-                    <label class="impression__label impression__label--second" for="impression-radio-second">
+                  <p class="impression__field field">
+                    <input class="visually-hidden field__input field__input--second" type="radio" name="impression-radio" id="impression-radio-second" required>
+                    <label class="field__label field__label--second" for="impression-radio-second">
                       <b>Скорее отрицательное</b>
                     </label>
                   </p>
                 </li>
                 <li class="impression__item">
                   <p class="impression__field">
-                    <input class="visually-hidden impression__input impression__input--third" type="radio" name="impression-radio" id="impression-radio-third" required>
-                    <label class="impression__label impression__label--third" for="impression-radio-third">
+                    <input class="visually-hidden field__input field__input--third" type="radio" name="impression-radio" id="impression-radio-third" required>
+                    <label class="field__label field__label--third" for="impression-radio-third">
                       <b>Затрудняюсь ответить</b>
                     </label>
                   </p>
@@ -156,33 +156,33 @@
               </legend>
               <ul class="visited-attractions__list">
                 <li class="visited-attractions__item visited-attractions__item--first">
-                  <p class="visited-attractions__field">
-                    <input class="visually-hidden visited-attractions__input visited-attractions__input--first" type="checkbox" name="visited-checkbox" id="visited-checkbox-first" checked>
-                    <label class="visited-attractions__label visited-attractions__label--first" for="visited-checkbox-first">
+                  <p class="visited-attractions__field field">
+                    <input class="visually-hidden field__input field__input--first" type="checkbox" name="visited-checkbox" id="visited-checkbox-first" checked>
+                    <label class="field__label field__label--first" for="visited-checkbox-first">
                       <b>Мост Дьявола</b>
                     </label>
                   </p>
                 </li>
                 <li class="visited-attractions__item visited-attractions__item--second">
-                  <p class="visited-attractions__field">
-                    <input class="visually-hidden visited-attractions__input visited-attractions__input--second" type="checkbox" name="visited-checkbox" id="visited-checkbox-second" checked>
-                    <label class="visited-attractions__label visited-attractions__label--second" for="visited-checkbox-second">
+                  <p class="visited-attractions__field field">
+                    <input class="visually-hidden field__input field__input--second" type="checkbox" name="visited-checkbox" id="visited-checkbox-second" checked>
+                    <label class="field__label field__label--second" for="visited-checkbox-second">
                       <b>Гора-Колокол</b>
                     </label>
                   </p>
                 </li>
                 <li class="visited-attractions__item visited-attractions__item--third">
-                  <p class="visited-attractions__field">
-                    <input class="visually-hidden visited-attractions__input visited-attractions__input--third" type="checkbox" name="visited-checkbox" id="visited-checkbox-third" checked>
-                    <label class="visited-attractions__label visited-attractions__label--third" for="visited-checkbox-third">
+                  <p class="visited-attractions__field field">
+                    <input class="visually-hidden field__input field__input--third" type="checkbox" name="visited-checkbox" id="visited-checkbox-third" checked>
+                    <label class="field__label field__label--third" for="visited-checkbox-third">
                       <b>Слайд-парк</b>
                     </label>
                   </p>
                 </li>
                 <li class="visited-attractions__item visited-attractions__item--fourth">
-                  <p class="visited-attractions__field">
-                    <input class="visually-hidden visited-attractions__input visited-attractions__input--fourth" type="checkbox" name="visited-checkbox" id="visited-checkbox-fourth">
-                    <label class="visited-attractions__label visited-attractions__label--fourth" for="visited-checkbox-fourth">
+                  <p class="visited-attractions__field field">
+                    <input class="visually-hidden field__input field__input--fourth" type="checkbox" name="visited-checkbox" id="visited-checkbox-fourth">
+                    <label class="field__label field__label--fourth" for="visited-checkbox-fourth">
                       <b>Красные скалы</b>
                     </label>
                   </p>
