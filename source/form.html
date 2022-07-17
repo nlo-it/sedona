@@ -8,7 +8,7 @@
     <header class="page-header">
       <div class="page-header__wrapper">
         <a class="page-header__logo" href="#">
-          <img src="/source/img/header-logo.svg" width="102" height="84" alt="Логотип проекта Sedona">
+          <img src="img/header-logo.svg" width="102" height="84" alt="Логотип проекта Sedona">
         </a>
         <nav class="page-header__navigation navigation">
           <button class="navigation__toggle" type="button">
@@ -27,8 +27,8 @@
                 Фото и видео
               </a>
             </li>
-            <li class="navigation__item">
-              <a class="navigation__link navigation__link--current" href="#">
+            <li class="navigation__item navigation__item--current">
+              <a class="navigation__link" href="#">
                 Форма отзыва
               </a>
             </li>
@@ -39,39 +39,39 @@
             </li>
           </ul>
         </nav>
-        <img src="/source/img/header-sedona-mini.svg" width="229" height="39" alt="Надпись Седона - белыми буквами на фоне гор">
+      <div class="page-header__promo promo">
+        <div class="promo__wrapper">
+          <img class="promo__back" src="img/back-form-mini.jpg" width="282" alt="Величественные горы Седоны">
+          <!-- Вставить JPG фоном и вбить атребуты width и height, а SVG вставить через IMG -->
+          <img class="promo__back" src="img/text-form-mini.svg" width="229" height="39" alt="Добро пожаловать в Седону">
+        </div>
+      </div>
       </div>
     </header>
 
     <main class="page-main">
 
-      <h1 class="visually-hidden">
-        Форма обратной связи проекта Седона
-      </h1>
-
       <section class="page-main__intro intro">
         <div class="intro__wrapper">
-          <h2 class="visually-hidden">
-            Отзыв
-          </h2>
-          <div class="intro__description">
-            <p class="intro__title">
-              Оставьте свой отзыв
-            </p>
-            <p class="intro__text">
-              Помогите нашим отелям стать лучше!<br>
-              Оставьте отзыв о них, а также о <br>
-              посещённых вами <br>
-              достопримечательностях
-            </p>
-          </div>
+          <h1 class="visually-hidden">
+            Форма обратной связи проекта Седона
+          </h1>
+          <p class="intro__title">
+            Оставьте свой отзыв
+          </p>
+          <p class="intro__text">
+            Помогите нашим отелям стать лучше!<br>
+            Оставьте отзыв о них, а также о <br>
+            посещённых вами <br>
+            достопримечательностях
+          </p>
         </div>
       </section>
 
       <section class="page-main__feedback feedback">
         <div class="feedback__wrapper">
           <h2 class="visually-hidden">
-            Напишите нам
+            Отзыв
           </h2>
           <form class="feedback__form" action="https://echo.htmlacademy.ru" method="post" name="feedback-form">
             <fieldset class="feedback__username username">
