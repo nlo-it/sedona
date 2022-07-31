@@ -2,12 +2,12 @@
 <html class="page" lang="ru">
   <head>
     <meta charset="utf-8">
-    <title>HTML Academy: Sedona</title>
+    <title>Седона — небольшой городок в Аризоне</title>
     <link rel="stylesheet" href="css/style.css">
-    <link rel="preload" href="fonts/ptsans.woff2" as="font" type="font/woff2" crossorigin="anonymous">
-    <link rel="preload" href="fonts/ptsans.woff" as="font" type="font/woff" crossorigin="anonymous">
-    <link rel="preload" href="fonts/ptsansbold.woff2" as="font" type="font/woff2" crossorigin="anonymous">
-    <link rel="preload" href="fonts/ptsansbold.woff" as="font" type="font/woff" crossorigin="anonymous">
+    <!-- <link rel="preload" href="fonts/ptsans.woff2" as="font" type="font/woff2" crossorigin="anonymous"> -->
+    <!-- <link rel="preload" href="fonts/ptsans.woff" as="font" type="font/woff" crossorigin="anonymous"> -->
+    <!-- <link rel="preload" href="fonts/ptsansbold.woff2" as="font" type="font/woff2" crossorigin="anonymous"> -->
+    <!-- <link rel="preload" href="fonts/ptsansbold.woff" as="font" type="font/woff" crossorigin="anonymous"> -->
   </head>
   <body class="page__body">
     <header class="page-header">
@@ -15,42 +15,33 @@
         <a class="page-header__logo" href="#">
           <img src="img/header-logo.svg" width="102" height="84" alt="Логотип проекта Sedona">
         </a>
-        <nav class="page-header__navigation navigation">
+        <nav class="page-header__navigation navigation visually-hidden">
           <button class="navigation__toggle" type="button">
-            <span class="visually-hidden">
-              Открыть меню
-            </span>
+            <span class="visually-hidden">Открыть меню</span>
           </button>
           <ul class="navigation__list">
             <li class="navigation__item navigation__item--current">
-              <a class="navigation__link" href="#">
-                Главная
-              </a>
+              <a class="navigation__link" href="#">Главная</a>
             </li>
             <li class="navigation__item">
-              <a class="navigation__link" href="#">
-                Фото и видео
-              </a>
+              <a class="navigation__link" href="catalog.html">Фото и видео</a>
             </li>
             <li class="navigation__item">
-              <a class="navigation__link" href="#">
-                Форма отзыва
-              </a>
+              <a class="navigation__link" href="form.html">Форма отзыва</a>
             </li>
             <li class="navigation__item">
-              <a class="navigation__link" href="#">
-                HTML Academy
-              </a>
+              <a class="navigation__link" href="#">HTML Academy</a>
             </li>
           </ul>
         </nav>
-      <div class="page-header__promo promo">
-        <div class="promo__wrapper">
-          <img class="promo__back" src="img/back-main-mini.jpg" width="282" alt="Величественные горы Седоны">
-          <!-- Вставить JPG фоном и вбить атребуты width и height, а SVG вставить через IMG -->
-          <img class="promo__back" src="img/text-main-mini.svg" width="282" height="214" alt="Добро пожаловать в Седону">
+        <div class="page-header__promo promo">
+          <div class="promo__wrapper">
+            <!-- <img class="promo__back" src="img/back-main-mini.jpg" width="282" alt="Величественные горы Седоны"> -->
+            <!-- <img class="promo__background" src="img/header-background.jpg" width="901" height="389" alt="Величественные горы Седоны"> -->
+            <!-- Вставить JPG фоном и вбить атребуты width и height, а SVG вставить через IMG -->
+            <img class="promo__slogan" src="img/text-main-mini.svg" width="282" height="214" alt="Добро пожаловать в Седону">
+          </div>
         </div>
-      </div>
       </div>
     </header>
 
@@ -79,18 +70,20 @@
             Преимущества проекта Седона
           </h2>
           <ol class="advantages__list">
-            <li class="advantages__item">
-              <h3 class="advantages__title">Настоящий городок</h3>
-              <p class="advantages__number">— №1 —</p>
-              <p class="advantages__text">
-                Седона не аттракцион для туристов, там <br>
-                течет своя жизнь
-              </p>
+            <li class="advantages__item advantages__item--pic">
+              <div class="advantages__header">
+                <h3 class="advantages__title">Настоящий городок</h3>
+                <p class="advantages__number">— №1 —</p>
+                <p class="advantages__text">
+                  Седона не аттракцион для туристов, там <br>
+                  течет своя жизнь
+                </p>
+              </div>
               <img src="img/motel-photo.jpg" width="282" height="260" alt="Фото двухэтажного мотеля в Седоне">
               <div class="advantages__motel advantages-motel">
                 <dl class="advantages-motel__list">
-                  <div class="advantages-motel__item advantages-motel__item--first">
-                    <dt class="advantages-motel__plus">
+                  <div class="advantages-motel__item">
+                    <dt class="advantages-motel__title">
                       Жильё
                     </dt>
                     <dd class="advantages-motel__description">
@@ -99,8 +92,8 @@
                       кино!
                     </dd>
                   </div>
-                  <div class="advantages-motel__item advantages-motel__item--second">
-                    <dt class="advantages-motel__plus">
+                  <div class="advantages-motel__item">
+                    <dt class="advantages-motel__title">
                       Сувениры
                     </dt>
                     <dd class="advantages-motel__description">
@@ -108,8 +101,8 @@
                       местного производства!
                     </dd>
                   </div>
-                  <div class="advantages-motel__item advantages-motel__item--third">
-                    <dt class="advantages-motel__plus">
+                  <div class="advantages-motel__item">
+                    <dt class="advantages-motel__title">
                       Еда
                     </dt>
                     <dd class="advantages-motel__description">
@@ -121,7 +114,7 @@
                 </dl>
               </div>
             </li>
-            <li class="advantages__item">
+            <li class="advantages__item advantages__item--pic">
               <h3 class="advantages__title">Там есть мост дьявола</h3>
               <p class="advantages__number">— №2 —</p>
               <p class="advantages__text">
@@ -130,7 +123,7 @@
               </p>
               <img src="img/bridge-photo.jpg" width="282" height="260" alt="Мост дьявола в Седоне">
             </li>
-            <li class="advantages__item">
+            <li class="advantages__item advantages__item--pic">
               <h3 class="advantages__title">Небольшая площадь</h3>
               <p class="advantages__number">— №3 —</p>
               <p class="advantages__text">
@@ -138,7 +131,7 @@
                 очент близко
               </p>
             </li>
-            <li class="advantages__item">
+            <li class="advantages__item advantages__item--pic">
               <h3 class="advantages__title">Красивая дорога</h3>
               <p class="advantages__number">— №4 —</p>
               <p class="advantages__text">
@@ -146,7 +139,7 @@
                 совсем не скучно!
               </p>
             </li>
-            <li class="advantages__item">
+            <li class="advantages__item advantages__item--pic">
               <h3 class="advantages__title">Мало туристов</h3>
               <p class="advantages__number">— №5 —</p>
               <p class="advantages__text">
