@@ -15,11 +15,11 @@
         <a class="page-header__logo" href="#">
           <img src="img/header-logo.svg" width="102" height="84" alt="Логотип проекта Sedona">
         </a>
-        <nav class="page-header__navigation navigation visually-hidden">
-          <button class="navigation__toggle" type="button">
+        <nav class="page-header__navigation navigation">
+          <button class="navigation__toggle visually-hidden" type="button">
             <span class="visually-hidden">Открыть меню</span>
           </button>
-          <ul class="navigation__list">
+          <ul class="navigation__list clear">
             <li class="navigation__item navigation__item--current">
               <a class="navigation__link" href="#">Главная</a>
             </li>
@@ -34,14 +34,12 @@
             </li>
           </ul>
         </nav>
-        <div class="page-header__promo promo">
+        <img class="page-header__slogan" src="img/header-slogan-mini.svg" width="282" height="214" alt="Добро пожаловать в Седону">
+        <!-- <div class="page-header__promo promo">
           <div class="promo__wrapper">
-            <!-- <img class="promo__back" src="img/back-main-mini.jpg" width="282" alt="Величественные горы Седоны"> -->
-            <!-- <img class="promo__background" src="img/header-background.jpg" width="901" height="389" alt="Величественные горы Седоны"> -->
-            <!-- Вставить JPG фоном и вбить атребуты width и height, а SVG вставить через IMG -->
             <img class="promo__slogan" src="img/text-main-mini.svg" width="282" height="214" alt="Добро пожаловать в Седону">
           </div>
-        </div>
+        </div> -->
       </div>
     </header>
 
@@ -52,7 +50,7 @@
           <h1 class="visually-hidden">
             Поиск гостиниц в небольшом городке Седона
           </h1>
-          <p class="intro__title">
+          <p class="intro__title heading">
             Седона — небольшой <br>
             городок в Аризоне, <br>
             заслуживающий большего!
@@ -72,7 +70,7 @@
           <ol class="advantages__list">
             <li class="advantages__item advantages__item--pic">
               <div class="advantages__header">
-                <h3 class="advantages__title">Настоящий городок</h3>
+                <h3 class="advantages__title heading">Настоящий городок</h3>
                 <p class="advantages__number">— №1 —</p>
                 <p class="advantages__text">
                   Седона не аттракцион для туристов, там <br>
@@ -83,7 +81,7 @@
               <div class="advantages__motel advantages-motel">
                 <dl class="advantages-motel__list">
                   <div class="advantages-motel__item">
-                    <dt class="advantages-motel__title">
+                    <dt class="advantages-motel__title heading">
                       Жильё
                     </dt>
                     <dd class="advantages-motel__description">
@@ -93,7 +91,7 @@
                     </dd>
                   </div>
                   <div class="advantages-motel__item">
-                    <dt class="advantages-motel__title">
+                    <dt class="advantages-motel__title heading">
                       Сувениры
                     </dt>
                     <dd class="advantages-motel__description">
@@ -102,7 +100,7 @@
                     </dd>
                   </div>
                   <div class="advantages-motel__item">
-                    <dt class="advantages-motel__title">
+                    <dt class="advantages-motel__title heading">
                       Еда
                     </dt>
                     <dd class="advantages-motel__description">
@@ -115,7 +113,7 @@
               </div>
             </li>
             <li class="advantages__item advantages__item--pic">
-              <h3 class="advantages__title">Там есть мост дьявола</h3>
+              <h3 class="advantages__title heading">Там есть мост дьявола</h3>
               <p class="advantages__number">— №2 —</p>
               <p class="advantages__text">
                 Да, по нему можно пройти! Если вы <br>
@@ -124,7 +122,7 @@
               <img src="img/bridge-photo.jpg" width="282" height="260" alt="Мост дьявола в Седоне">
             </li>
             <li class="advantages__item advantages__item--pic">
-              <h3 class="advantages__title">Небольшая площадь</h3>
+              <h3 class="advantages__title heading">Небольшая площадь</h3>
               <p class="advantages__number">— №3 —</p>
               <p class="advantages__text">
                 Все интересные места находятся <br>
@@ -132,7 +130,7 @@
               </p>
             </li>
             <li class="advantages__item advantages__item--pic">
-              <h3 class="advantages__title">Красивая дорога</h3>
+              <h3 class="advantages__title heading">Красивая дорога</h3>
               <p class="advantages__number">— №4 —</p>
               <p class="advantages__text">
                 Ехать в Седону из Лас-Вегаса <br>
@@ -140,7 +138,7 @@
               </p>
             </li>
             <li class="advantages__item advantages__item--pic">
-              <h3 class="advantages__title">Мало туристов</h3>
+              <h3 class="advantages__title heading">Мало туристов</h3>
               <p class="advantages__number">— №5 —</p>
               <p class="advantages__text">
                 Большинство едет в Гранд Каньон <br>
@@ -156,7 +154,7 @@
           <h2 class="visually-hidden">
             Поиск гостиницы
           </h2>
-          <p class="search-hotel__title">
+          <p class="search-hotel__title heading">
             Заинтересовались?
           </p>
           <p class="search-hotel__text">
@@ -184,10 +182,7 @@
 
       <footer class="page-footer">
         <div class="page-footer__wrapper">
-          <div class="page-footer__logo">
-            <img src="img/sedona-hashtag.svg" width="166" height="26" alt="Хештег проекта Седона">
-            <!-- Возможно это просто параграф <p>, а не <img> внутри <div> -->
-          </div>
+          <p class="page-footer__hashtag heading">#visitsedona</p>
           <div class="page-footer__social social">
             <ul class="social__list">
               <li class="social__item">

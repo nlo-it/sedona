@@ -1,21 +1,29 @@
 .page-header {
   height: 445px;
   background-color: @white;
+  background-image: url(../../img/back-main-mini.jpg);
+  background-repeat: no-repeat;
+  background-position: center bottom;
   position: relative;
 }
 
 .page-header__wrapper {
+  width: 282px;
   text-align: center;
-  // position: relative;
-}
-
-.page-header__logo {
   position: absolute;
   top: 0;
-  left: 109px;
+  left: 50%;
+  transform: translateX(-50%);
 }
+
+// .page-header__logo {}
 
 .page-header__navigation {
   background-color: @blue-nav-bcg;
 }
+
+.page-header__slogan {
+  margin-top: 62px;
+}
+
 // .page-header__promo {}
