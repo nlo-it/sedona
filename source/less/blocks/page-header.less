@@ -1,22 +1,25 @@
 .page-header {
-  height: 445px;
   background-color: @white;
+}
+
+.page-header__wrapper {
+  min-width: 320px;
+  height: 445px;
+  text-align: center;
   background-image: url(../../img/back-main-mini.jpg);
   background-repeat: no-repeat;
   background-position: center bottom;
   position: relative;
+  outline: 1px solid green;
+  outline-offset: -1px;
 }
 
-.page-header__wrapper {
-  width: 282px;
-  text-align: center;
+.page-header__logo {
   position: absolute;
   top: 0;
   left: 50%;
   transform: translateX(-50%);
 }
-
-// .page-header__logo {}
 
 .page-header__navigation {
   position: absolute;
@@ -27,7 +30,11 @@
 }
 
 .page-header__slogan {
-  margin-top: 62px;
+  width: 282px;
+  height: 214px;
+  margin-top: 146px;
+  outline: 1px solid rgb(244, 248, 5);
+  outline-offset: -1px;
 }
 
 // .page-header__promo {}
