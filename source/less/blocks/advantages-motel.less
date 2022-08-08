@@ -1,0 +1,50 @@
+.advantages-motel {}
+.advantages-motel__list {
+  // width: 320px;
+  // display: flex;
+  // justify-content: flex-end;
+}
+
+.advantages-motel__item {
+  // outline: 1px solid green;
+  // outline-offset: -1px;
+  position: relative;
+  padding-left: 70px;
+}
+
+.advantages-motel__item--pic::before {
+  content: "";
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  // outline: 1px solid red;
+  // outline-offset: -1px;
+}
+
+.advantages-motel__item--pic:first-child::before {
+  background-image: url(../../img/house-icon.svg);
+  background-repeat: no-repeat;
+  left: 3px;
+}
+
+.advantages-motel__item--pic:nth-child(2)::before {
+  background-image: url(../../img/gift-icon.svg);
+  background-repeat: no-repeat;
+  left: 7px;
+}
+
+.advantages-motel__item--pic:nth-child(3)::before {
+  background-image: url(../../img/burger-icon.svg);
+  background-repeat: no-repeat;
+  left: 0;
+}
+
+.advantages-motel__title {
+
+}
+
+.advantages-motel__description {
+  margin-left: 0;
+}

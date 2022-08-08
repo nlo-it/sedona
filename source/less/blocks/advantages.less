@@ -1,19 +1,35 @@
 .advantages {}
-.advantages__wraper {
-  text-align: center;
-}
+.advantages__wraper {}
 
 .advantages__list {
   list-style: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
+
 .advantages__item {}
-.advantages__item--pic {}
+
+.advantages__item--pic {
+  outline: 1px solid rgb(9, 255, 0);
+  outline-offset: -1px;
+}
+
 .advantages__header {
   color: @white;
+  text-align: center;
   background-color: @blue-nav-bcg;
-  padding: 55px 12px 39px 13px;
+  // padding: 55px 12px 39px 13px;
   outline: 1px solid red;
   outline-offset: -1px;
+}
+
+.advantages__header--margin--first {
+  padding: 34px 12px 39px 13px;
+}
+
+.advantages__header--margin--second {
+  padding: 39px 16px 35px 15px;
 }
 
 .advantages__title {}
@@ -24,6 +40,7 @@
 .advantages__picture {
   height: 260px;
   object-fit: cover;
+  // margin-bottom: 26px;
 }
 .advantages__motel {}
 .advantages__title--white-text {}
