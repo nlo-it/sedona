@@ -9,33 +9,25 @@
 }
 
 .advantages__item {
+  width: 100%;
+  background-color: @common-gray;
   display: flex;
   flex-direction: column;
   align-items: center;
   padding-top: 25px;
   padding-bottom: 24px;
-  outline: 1px solid red;
-  outline-offset: -1px;
+  // outline: 1px solid rgb(9, 255, 0);
+  // outline-offset: -1px;
 }
 
-// .advantages__item:first-child {
-//   padding-bottom: 0;
-// }
-
-// .advantages__item:nth-child(2) {
-//   padding-bottom: 0;
-// }
-
-// .advantages__item:nth-child(3) {
-//   padding-top: 26px;
-// }
+.advantages__item:not(:last-child) {
+  border-bottom: 1px solid @dividing-line-lightgrey;
+}
 
 .advantages__item--pic {
   color: @white;
   background-color: @blue-nav-bcg;
   padding-bottom: 0;
-  outline: 1px solid rgb(9, 255, 0);
-  outline-offset: -1px;
 }
 
 .advantages__header {
