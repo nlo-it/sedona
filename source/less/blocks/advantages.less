@@ -6,6 +6,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  counter-reset: number;
 }
 
 .advantages__item {
@@ -35,6 +36,12 @@
 .advantages__title,
 .advantages__number {
   margin-bottom: 1em;
+}
+
+.advantages__text::before {
+  white-space: pre;
+  counter-increment: number;
+  content: "— №" counter(number) " —\A\A";
 }
 
 // .advantages__text {}
